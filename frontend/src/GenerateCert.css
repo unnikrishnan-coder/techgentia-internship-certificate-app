@@ -1,0 +1,84 @@
+.certbox{
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #5e5b5b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.certbox h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+.certbox form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .certbox input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #868383;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+  }
+
+
+  .certbox button {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: #183555;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .certbox button:hover {
+    background-color: #0056b3;
+  }
+
+  .certbox label{
+    font-size: 14px;
+    color: #ffffff ;
+    font-weight: bold;
+  }
+
+/*.loginbox {
+    width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #5e5b5b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .loginbox h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  .loginbox form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginbox input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #868383;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 45px;
+  }*/

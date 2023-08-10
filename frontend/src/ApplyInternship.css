@@ -1,0 +1,111 @@
+.StdDetails{
+   
+   /* margin-top: 20px; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 500px;
+   height: 700px;
+   
+}
+
+
+.StdDetailsdiv{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.box{
+   background-color: #525d6b;
+   border: solid black 1px;
+   margin: 10px;
+   width: 400px;
+   height: 50px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.box:hover{
+   background-color: black;
+}
+
+.datelabel{
+   color: white;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: #3a4452;
+   width: 469px;
+   border-radius: 10px;
+   padding: 20px;
+}
+.maindiv{
+   
+   height: 668px;
+   background-image: linear-gradient(to top right,rgb(57, 100, 159),rgb(31, 67, 113),rgb(4, 31, 63));;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.applybtn{
+   width: 100px;
+   height: 40px;
+   border-radius: 10px;
+   border: solid silver 1px;
+
+}
+
+.applybtn:hover{
+   background-color: black;
+}
+.drop{
+   margin: 10px;
+   width: 400px;
+   height: 50px;
+   text-align: center;
+   background-color: #4d3c3c63;
+   border-radius: 10px;
+   border: solid black 1px;
+}
+
+
+
+.StdDetailsdiv{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+/* .uploadbtn{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 10px;
+   background-color:  #4d3c3c63;
+   width: 400px;
+   height: 50px;
+   border-radius: 10px;
+   align-items: center;
+   padding: 2px;
+
+} */
+
+h1{
+   padding: 0;
+   margin: 0;
+}
+
+.upload{
+   background-color: white;
+   margin: 10px;
+   text-align: center;
+   background: black;
+}

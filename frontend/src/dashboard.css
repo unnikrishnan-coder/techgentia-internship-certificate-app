@@ -1,0 +1,104 @@
+*{
+    padding: 0;margin: 0;
+}
+ .navlogo img{
+    
+    width: 90px;
+    border-radius: 50%;
+    left: 100px;
+    height: auto;
+}
+
+
+/* li:hover{
+
+transition: transform 0.1s linear;
+transform: scale(1.2);
+} */
+
+/* input:hover{
+transition: transform 0.1s linear;
+transform: scale(1.2);
+
+} */
+
+body{
+    background-color: #335174;
+    
+}
+
+.form{
+    position:absolute;
+    left: 300px;
+    top: 350px;
+    width: 300px;
+    height: 200px;
+    background-color:aliceblue;
+    background-image:url("My project.jpg");
+   
+    border-radius: 20px;
+}
+.gamedev{
+    position:absolute;
+    left: 700px;
+    top: 350px;
+    width: 300px;
+    height: 200px;
+    background-color:aliceblue;
+    background-image:url("My project.jpg");
+   
+    border-radius: 20px;
+}
+
+
+.apply{
+    background-color: #335174;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.status{
+    background-color: #335174;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+
+}
+
+.a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #335174;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* a:hover{
+    transition: transform 0.1s linear;
+    transform: scale(1.2);
+} */
+
+.apply:hover{
+    background-color: #cc8383;
+    color: bisque;
+}
+
+.status:hover{
+    background-color: #cc8383;
+    color: bisque;
+}
